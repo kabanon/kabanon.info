@@ -22,14 +22,22 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col m-3">
+        <div class="col mb-1 mt-1">
           <h1>Vincent LABUSSIERE<span class="sr-only"> - Curriculum vitæ</span></h1>
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-sm-6 col-xl-3 order-1">
-          <div class="card mb-3">
-            <img class="card-img-top" src="./assets/img/rocket.jpg" alt="">
+          <div class="card mb-1">
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="./assets/img/rocket-448.jpg 1x" media="all and (max-width: 1199px)" type="image/jpeg">
+              <source srcset="./assets/img/rocket-328.jpg 1x" media="all and (max-width: 991px)" type="image/jpeg">
+              <source srcset="./assets/img/rocket-238.jpg 1x" media="all and (max-width: 767px)" type="image/jpeg">
+              <source srcset="./assets/img/rocket-543.jpg 1x" media="all and (max-width: 575px)" type="image/jpeg">
+              <!--[if IE 9]></video><![endif]-->
+              <img src="./assets/img/rocket-253.jpg" alt="" class="card-img-top">
+            </picture>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 Drupal <span lang="en">addict</span>

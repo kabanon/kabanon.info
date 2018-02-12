@@ -10,7 +10,7 @@ function addHandlers() {
     let nw_span = document.createElement('span');
     nw_span.setAttribute('class', 'sr-only');
     nw_span.textContent = '(ouverture dans une nouvelle fenêtre)';
-    link.appendChild(nw_span));
+    link.appendChild(nw_span);
     link.onclick = function(event){return launchWindow(this, event);}
     // UAAG requires that user agents handle events in a device-independent manner
     // but only some browsers do this, so add keyboard event to be sure
