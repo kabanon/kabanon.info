@@ -22,14 +22,22 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col m-3">
+        <div class="col mb-1 mt-1">
           <h1>Vincent LABUSSIERE<span class="sr-only"> - Curriculum vitæ</span></h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-sm-12 col-lg-4 col-xl-3">
-          <div class="card">
-            <img class="card-img-top" src="./assets/img/rocket.jpg" alt="">
+        <div class="col-12 col-sm-6 col-xl-3 order-1">
+          <div class="card mb-1">
+            <picture>
+              <!--[if IE 9]><video style="display: none;"><![endif]-->
+              <source srcset="./assets/img/rocket-448.jpg 1x" media="all and (max-width: 1199px)" type="image/jpeg">
+              <source srcset="./assets/img/rocket-328.jpg 1x" media="all and (max-width: 991px)" type="image/jpeg">
+              <source srcset="./assets/img/rocket-238.jpg 1x" media="all and (max-width: 767px)" type="image/jpeg">
+              <source srcset="./assets/img/rocket-543.jpg 1x" media="all and (max-width: 575px)" type="image/jpeg">
+              <!--[if IE 9]></video><![endif]-->
+              <img src="./assets/img/rocket-253.jpg" alt="" class="card-img-top">
+            </picture>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 Drupal <span lang="en">addict</span>
@@ -38,14 +46,34 @@
                   @i-com.fr
                 </a>
               </li>
+            </ul>
+          </div>
+          <h2>
+            <span class="badge badge-secondary">
+              Sphère virtuelle
+            </span>
+          </h2>
+          <div class="card">
+            <ul class="list-group list-group-flush">
               <li class="list-group-item">
-                <a href="https://github.com/kabanon" target="_blank" class="lk-nw">
+                <a href="https://github.com/kabanon"
+                    target="_blank"
+                    class="lk-nw"
+                    lang="en">
                   Github
                 </a>
               </li>
               <li class="list-group-item">
-                <a href="https://www.drupal.org/u/_vl_" target="_blank" class="lk-nw">
+                <a href="https://www.drupal.org/u/_vl_"
+                    target="_blank"
+                    class="lk-nw"
+                    lang="en">
                   Drupal
+                </a>
+              </li>
+              <li class="list-group-item">
+                <a href="https://addons.mozilla.org/fr/firefox/user/Kabanon/" target="_blank" class="lk-nw">
+                  Mozilla
                 </a>
               </li>
               <li class="list-group-item">
@@ -55,7 +83,7 @@
               </li>
               <li class="list-group-item">
                 <a href="./Labussiere-Vincent-cv-web.pdf" target="_blank" class="lk-nw">
-                  CV au format PDF
+                  <abbr title="Curriculum vitæ">CV</abbr> au format PDF
                 </a>
               </li>
               <li class="list-group-item">
@@ -66,7 +94,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-8 col-xl-6">
+        <div class="col-12 col-sm-12 col-xl-6 order-3 order-xl-2">
           <h2>
             <span class="badge badge-secondary">
               Expériences
@@ -84,11 +112,11 @@
                 <a href="https://www.i-com.fr/" target="_blank" class="lk-nw">
                   Agence i-com
                 </a> -
-                Depuis 2009
+                Depuis <time datetime="2009">2009</time>
               </span>
             </p>
-            <p class="m-1">Agence de 14 collaborateurs, i-com est spécialisée dans l'intégration et le développement Drupal (6, 7 et 8) depuis mon arrivée. J'ai pour mission principale d'accompagner l'équipe à monter en puissance et en expertise autour de ce CMS.</p>
-            <p class="m-1">Agence de communication pluridiciplinaire, j'évolue autour d'une équipe aux compétences complémentaires : UX, intégration FO, développement BO, SEO et web-marketing.</p>
+            <p class="m-1">Agence de 14 collaborateurs, i-com est spécialisée dans l'intégration et le développement Drupal (6, 7 et 8) depuis mon arrivée. J'ai pour mission principale d'accompagner l'équipe à monter en puissance et en expertise autour de ce <abbr lang="en" title="Content Management System">CMS</abbr>.</p>
+            <p class="m-1">Agence de communication pluridiciplinaire, j'évolue autour d'une équipe aux compétences complémentaires : <abbr lang="en" title="User eXperience">UX</abbr>, intégration <abbr lang="en" title="Front-Office">FO</abbr>, développement <abbr lang="en" title="Back Office">BO</abbr>, <abbr lang="en" title="Search Engine Optimization">SEO</abbr> et web-marketing.</p>
           </div>
           <div class="card mb-2">
             <h3 class="m-1">
@@ -102,10 +130,10 @@
                 <a href="http://iutdijon.u-bourgogne.fr/" target="_blank" class="lk-nw">
                   Université de Bourgogne
                 </a> -
-                Depuis 2010
+                Depuis <time datetime="2010">2010</time>
               </span>
             </p>
-            <p class="m-1">J'interviens auprès d'étudiants en licence professionnelle et ai pour objectif de faire découvrir Drupal en contextualisant mon approche selon les options du diplôme. L'accent est mis sur la compréhension globale des spécificités du CMS, puis, sur un approfondissement de fonctionnalités.</p>
+            <p class="m-1">J'interviens auprès d'étudiants en licence professionnelle et ai pour objectif de faire découvrir Drupal en contextualisant mon approche selon les options du diplôme. L'accent est mis sur la compréhension globale des spécificités du <abbr lang="en" title="Content Management System">CMS</abbr>.</p>
           </div>
           <div class="card mb-2">
             <h3 class="m-1">
@@ -119,7 +147,7 @@
                 <a href="https://www.misterharry.fr/" target="_blank" class="lk-nw">
                   Mister Harry
                 </a> -
-                2007/2008
+                <time datetime="2007">2007</time>/<time datetime="2008">2008</time>
               </span>
             </p>
             <p class="m-1">J'avais pour mission le développement de projets web en PHP / MySQL, la gestion de l'infrastructure d'hébergement et la hotline client.</p>
@@ -133,7 +161,7 @@
             <h3 class="m-1">
               <span class="badge badge-pill badge-light">
                 <abbr title="Licence professionnelle">LP</abbr>
-                Systèmes Informatiques et Logiciels
+                S<span class="d-none d-sm-inline">ystèmes </span>I<span class="d-none d-sm-inline">nformatiques et </span>L<span class="d-none d-sm-inline">ogiciels</span>
               </span>
             </h3>
             <p class="mr-1 text-right">
@@ -142,7 +170,7 @@
                 <a href="http://sciences-techniques.u-bourgogne.fr/departements/iem.html" target="_blank" class="lk-nw">
                   Université de Bourgogne
                 </a> -
-                2011
+                <time datetime="2011">2011</time>
               </span>
             </p>
             <p class="m-1">
@@ -153,7 +181,7 @@
             <h3 class="m-1">
               <span class="badge badge-pill badge-light">
                 <abbr title="Licence professionnelle">LP</abbr>
-                Activités et Techniques de Communication
+                A<span class="d-none d-sm-inline">ctivités et </span>T<span class="d-none d-sm-inline">echniques de </span>C<span class="d-none d-sm-inline">ommunication</span>
               </span>
             </h3>
             <p class="mr-1 text-right">
@@ -162,7 +190,7 @@
                 <a href="http://iutdijon.u-bourgogne.fr/" target="_blank" class="lk-nw">
                   Université de Bourgogne
                 </a> -
-                2007
+                <time datetime="2007">2007</time>
               </span>
             </p>
             <p class="m-1">
@@ -173,7 +201,7 @@
             <h3 class="m-1">
               <span class="badge badge-pill badge-light">
                 <abbr title="Diplôme universitaire de technologie">DUT</abbr>
-                Services et Réseaux de Communication
+                S<span class="d-none d-sm-inline">ervices et </span>R<span class="d-none d-sm-inline">éseaux de </span>C<span class="d-none d-sm-inline">ommunication</span>
               </span>
             </h3>
             <p class="mr-1 text-right">
@@ -182,20 +210,17 @@
                 <a href="http://iutdijon.u-bourgogne.fr/" target="_blank" class="lk-nw">
                   Université de Bourgogne
                 </a> -
-                2005
+                <time datetime="2005">2005</time>
               </span>
             </p>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-12 col-xl-3">
+        <div class="col-12 col-sm-6 col-xl-3 order-2 order-xl-3">
           <h2>
             <span class="badge badge-secondary">
               Compétences
             </span>
           </h2>
-
-
-
           <div class="card mb-2">
             <ul class="list-group">
               <li class="list-group-item list-group-item-light text-center">
@@ -216,27 +241,33 @@
                 MongoDB</li>
               <li class="list-group-item">
                 HTML5,
-                Bootstrap 3</li>
-                <li class="list-group-item list-group-item-light text-center">
-                  <h3>
-                    <span class="badge badge-light">
-                      Fonctionnel
-                    </span>
-                  </h3>
-                </li>
+                <span lang="en">
+                  Bootstrap 3,4
+                </span>
+              </li>
+              <li class="list-group-item list-group-item-light text-center">
+                <h3>
+                  <span class="badge badge-light">
+                    Fonctionnel
+                  </span>
+                </h3>
+              </li>
               <li class="list-group-item">
-                Python 3, Symphony
+                Python, Symphony
+              </li>
               <li class="list-group-item">
-                Elasticsearch 6</li>
+                <span lang="en">
+                  Elasticsearch 6
+                </span>
+              </li>
               <li class="list-group-item">
-                Bootstrap 4,
                 CSS3,
                 jQuery</li>
               <li class="list-group-item">
                 <abbr title="Référentiel Général d'Accessibilité pour les Administrations">RGAA</abbr></li>
               <li class="list-group-item list-group-item-light text-center">
                 <h3>
-                  <span class="badge badge-light">
+                  <span class="badge badge-light" lang="en">
                     Roadmap
                   </span>
                 </h3>
@@ -252,9 +283,6 @@
         </div>
       </div>
     </div>
-    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="./node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="./assets/js/default.js"></script>
   </body>
 </html>
